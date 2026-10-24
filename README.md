@@ -12,7 +12,7 @@
 
 ## Try it
 
-👉 **Open the application:** <https://appdeveloper365.github.io/videoMix/>
+👉 **Open the application:** <https://appdeveloper365.github.io/videoMix-app/>
 
 ## Legal — Privacy Policy · Terms of Use · License
 
