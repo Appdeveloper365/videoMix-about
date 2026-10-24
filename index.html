@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>videoMix — extract · trim · mix</title>
+  <meta name="description" content="videoMix — blend a soundtrack into a video, extract audio, trim and mix. Free, local-first, private." />
+  <style>
+    :root { color-scheme: dark; }
+    * { margin: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh; display: grid; place-items: center;
+      background: #0b0d10; color: #e7e9ee; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: 40px 20px;
+    }
+    main { max-width: 640px; width: 100%; text-align: center; }
+    .logo { font-size: 42px; font-weight: 800; letter-spacing: -0.5px; }
+    .logo span { color: #7aa2ff; }
+    .tag { color: #9aa3b2; margin: 6px 0 28px; }
+    .hero { background: #14171c; border: 1px solid #23282f; border-radius: 14px; padding: 24px; text-align: left; }
+    .hero h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: #7aa2ff; margin-bottom: 10px; }
+    .hero p { color: #c6cbd4; font-size: 14px; }
+    ul.acts { list-style: none; padding: 0; margin: 18px 0 0; font-size: 14.5px; color: #e7e9ee; }
+    ul.acts li { padding: 5px 0; }
+    .cta { display: inline-block; margin: 8px 0 26px; padding: 13px 30px; border-radius: 10px;
+      background: #3b70ff; color: #fff; text-decoration: none; font-weight: 700; font-size: 16px; }
+    .cta:hover { background: #2f5fe0; }
+    .legal { font-size: 13.5px; color: #9aa3b2; }
+    .legal a { color: #7aa2ff; text-decoration: none; }
+    .legal a:hover { text-decoration: underline; }
+    footer { margin-top: 30px; font-size: 12px; color: #565c66; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="logo">video<span>Mix</span></div>
+    <p class="tag">extract · trim · mix</p>
+
+    <a class="cta" href="https://appdeveloper365.github.io/videoMix/" rel="noopener">Open the application →</a>
+
+    <div class="hero">
+      <h2>Introduction</h2>
+      <p>Paste a video link and videoMix inspects it live, then walks you through your mix step by step:</p>
+      <ul class="acts">
+        <li>🎵 <strong>Blend in a soundtrack</strong> — replace the audio, mix with independent volumes, or auto-ducking that dips the music when speech plays.</li>
+        <li>🎸 <strong>Extract audio only</strong> — MP3, M4A, FLAC or WAV.</li>
+        <li>✂️ <strong>Trim exactly</strong> — seconds-precise start and end on a live timeline.</li>
+        <li>🎚️ <strong>Fast Copy or full re-encode</strong> — instant quality-preserving copy, or H.264/265 with CRF and hardware acceleration.</li>
+        <li>📱 <strong>Yours everywhere</strong> — desktop, browser, and your own home server. Local-first: nothing is sent to anyone but your machine.</li>
+      </ul>
+    </div>
+
+    <p class="legal" style="margin-top:22px">
+      <a href="/videoMix-about/LEGAL.md"><strong>Terms of Use · Privacy Policy · License</strong></a> — one document.<br />
+      No telemetry. No tracking. You are responsible for the rights to the content you process.
+    </p>
+
+    <footer>videoMix is open-source software (MIT). This page is documentation only — no source code is published here.</footer>
+  </main>
+</body>
+</html>
